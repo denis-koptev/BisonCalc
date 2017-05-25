@@ -51,7 +51,7 @@ int yylex()
 			yylval.val = val * 1.0;
 			return number;
 		}
-		else if (isalpha(c)) 
+		else if (isalpha(c))
 		{
 			char s_c[2];
 			s_c[0] = c;

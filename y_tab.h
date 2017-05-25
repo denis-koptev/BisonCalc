@@ -1,7 +1,8 @@
 typedef union {
 	double val;
-    char * foo;
+	char * foo;
 } YYSTYPE;
+
 #define	number	258
 #define	fsin	259
 #define	fcos	260
